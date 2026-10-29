@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <!-- Horizon Line representing the Ghats / Base line -->
+  <path d="M12 68 H88" stroke="#0F3D3E" stroke-width="4.5" stroke-linecap="round"/>
+  
+  <!-- Subtle reflection or second base line -->
+  <path d="M26 76 H74" stroke="#F28C28" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+  <path d="M38 83 H62" stroke="#FFC94A" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Rising Sun (Half circle over horizon) -->
+  <path d="M28 68 A22 22 0 0 1 72 68 Z" fill="#F28C28"/>
+  
+  <!-- Inner Sun Core Glow -->
+  <path d="M36 68 A14 14 0 0 1 64 68 Z" fill="#FFC94A"/>
+
+  <!-- Sun Rays (Kiran - Rays of Hope) -->
+  <!-- Top ray -->
+  <line x1="50" y1="20" x2="50" y2="34" stroke="#F28C28" stroke-width="4" stroke-linecap="round"/>
+  <!-- Diagonals -->
+  <line x1="28" y1="30" x2="38" y2="40" stroke="#F28C28" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="72" y1="30" x2="62" y2="40" stroke="#F28C28" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Lower diagonals -->
+  <line x1="16" y1="48" x2="28" y2="52" stroke="#F28C28" stroke-width="3" stroke-linecap="round"/>
+  <line x1="84" y1="48" x2="72" y2="52" stroke="#F28C28" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Subtle accent rays -->
+  <line x1="39" y1="23" x2="43" y2="33" stroke="#FFC94A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="61" y1="23" x2="57" y2="33" stroke="#FFC94A" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
